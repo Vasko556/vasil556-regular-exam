@@ -41,8 +41,10 @@ jobs:
     - name: Install dependenceis
       run: npm install
     - name: install playwright
-      run: npx playwright install  
-    - name: Run unit tests
+      run: npx playwright install
+    - name: Start app
+      run: npm start &  
+    - name: Run ui tests
       run: npm run test:ui
     - name: Add name
       run: echo "Vasil556"
