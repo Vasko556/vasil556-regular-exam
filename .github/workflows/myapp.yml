@@ -27,7 +27,7 @@ jobs:
       run: echo "Vasil556"
 
   build_test_ui:
-
+    needs: build_test_unit
     runs-on: ubuntu-latest
     
     steps:
