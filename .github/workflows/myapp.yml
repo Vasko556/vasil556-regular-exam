@@ -40,6 +40,7 @@ jobs:
         cache: 'npm'
     - name: Install dependenceis
       run: npm install
+    - name: install playwright
       run: npx playwright install  
     - name: Run unit tests
       run: npm run test:ui
