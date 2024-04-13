@@ -47,4 +47,3 @@ jobs:
       run: npm start &  
     - name: Run ui tests
       run: npm run test:ui
-    - name: Add name
